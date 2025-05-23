@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "The UI5 quickstart tutorial",
   "scripts": {
-    "start": "ui5 serve -o index.html"
+    "start": "ui5 serve -o index.html",
+    "new": "ui5 use OpenUI5 && ui5 add sap.m sap.tnt sap.ui.core sap.ui.layout themelib_sap_horizon"
   },
   "devDependencies": {
     "@ui5/cli": "^4.0.16"
